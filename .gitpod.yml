@@ -17,8 +17,7 @@ github:
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init:
-    command: |
+    - command: |
          pip install poetry
          poetry init
     
