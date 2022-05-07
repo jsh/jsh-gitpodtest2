@@ -17,11 +17,10 @@ github:
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: |
+  - command: |
       pip install poetry
+      poetry install
       poetry shell
-    command: |
-     poetry install
     
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
