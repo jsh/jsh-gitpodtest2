@@ -21,6 +21,7 @@ tasks:
       pip install poetry
       poetry install
     command: |
+      pip install poetry
       poetry shell
     
 
